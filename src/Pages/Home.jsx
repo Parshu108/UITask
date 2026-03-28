@@ -52,14 +52,29 @@ export default function Home() {
         </div>
 
         {/* Right */}
-        <div className="w-full">
+        <div className="relative w-full">
+          {/* Image */}
           <img src="/image1.png" alt="" className="rounded-xl shadow w-full" />
-        </div>
-        <div className="absolute -bottom-1 left-220 transform -translate-x-1/2 bg-white p-6 rounded-xl shadow-xl max-w-xs hidden md:block">
-          <p className="text-sm text-gray-600 mb-2">Our Motto</p>
-          <p className="font-semibold text-emerald-800 italic">
-            "Heal in Sankalpa and Heal by Sankalpa"
-          </p>
+
+          {/* Motto Card */}
+          <div
+            className="
+            absolute 
+            bottom-0 
+            left-1/5 
+            transform -translate-x-1/2 translate-y-1/3
+           bg-white 
+            p-4 sm:p-6 
+            rounded-xl 
+            shadow-xl 
+            w-[90%] sm:max-w-xs
+            hidden md:block"
+          >
+            <p className="text-sm text-gray-600 mb-2">Our Motto</p>
+            <p className="font-semibold text-emerald-800 italic text-sm sm:text-base">
+              "Heal in Sankalpa and Heal by Sankalpa"
+            </p>
+          </div>
         </div>
       </div>
     </>

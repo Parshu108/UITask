@@ -1,5 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoMdMailOpen } from "react-icons/io";
+import { CiLocationOn } from "react-icons/ci";
 // import img1 from "/logo1.jpeg";
 
 export default function Navbar() {
@@ -9,11 +12,14 @@ export default function Navbar() {
     <>
       {/* Top Bar */}
       <div className="bg-emerald-600 text-white text-xs sm:text-sm px-4 sm:px-6 py-4 flex flex-col sm:flex-row justify-between gap-3">
-        <div className="flex flex-col sm:flex-row sm:gap-6">
-          <span>📞 +91 98765 43210</span>
-          <span>✉️ info@sankalpaayurveda.com</span>
+        <div className="flex flex-wrap  gap-4 items-center">
+          <FaPhoneAlt /> <span> +91 98765 43210</span>
+          <IoMdMailOpen /> <span>info@sankalpaayurveda.com</span>
         </div>
-        <div>📍 Dharwad, Karnataka</div>
+        <div className="flex items-center gap-2">
+          <CiLocationOn />
+          Dharwad, Karnataka
+        </div>
       </div>
 
       {/* Navbar */}

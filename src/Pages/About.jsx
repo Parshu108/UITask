@@ -86,27 +86,28 @@ export default function About() {
       </section>
       <section className="px-4 sm:px-8 lg:px-16 py-16 bg-white">
         {/* Container */}
-        <div class="bg-emerald-800 text-white rounded-2xl p-8 md:p-12 text-center">
-          <div class="grid md:grid-cols-3 gap-6">
+        <div className="bg-emerald-800 text-white rounded-2xl p-8 md:p-12 text-center">
+          <div className="grid md:grid-cols-3 gap-6">
             <div className="p-4">
-              <FaRegHeart class="lucide lucide-heart w-8 h-8 mx-auto mb-3 text-amber-300" />
-              <p class="text-lg italic">
+              <FaRegHeart className="lucide lucide-heart w-8 h-8 mx-auto mb-3 text-amber-300" />
+              <p className="text-lg italic">
                 "Choose Sankalpa – Where Tradition Heals, and Research Reveals."
               </p>
             </div>
             <div className="p-4">
-              <FaRegHeart class="lucide lucide-heart w-8 h-8 mx-auto mb-3 text-amber-300" />
-              <p class="text-lg italic">
+              <FaRegHeart className="lucide lucide-heart w-8 h-8 mx-auto mb-3 text-amber-300" />
+              <p className="text-lg italic">
                 "Not just treatment, but transformation."
               </p>
             </div>
             <div className="p-4">
-              <FaRegHeart class="lucide lucide-heart w-8 h-8 mx-auto mb-3 text-amber-300" />
-              <p class="text-lg italic">"Your Sankalpa, Our Ayurveda."</p>
+              <FaRegHeart className="lucide lucide-heart w-8 h-8 mx-auto mb-3 text-amber-300" />
+              <p className="text-lg italic">"Your Sankalpa, Our Ayurveda."</p>
             </div>
           </div>
         </div>
       </section>
+      
     </>
   );
 }

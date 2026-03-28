@@ -66,23 +66,43 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden block bg-white px-6 py-4 space-y-4 shadow">
-          <Link to="/home" className="hover:text-emerald-600">
+        <div className="md:hidden block bg-white px-6 py-4 shadow space-y-2">
+          <Link
+            to="/home"
+            className="block w-full px-3 py-2 rounded-lg hover:bg-gray-100 hover:text-emerald-600 transition"
+          >
             Home
           </Link>
-          <Link to="/about" className="hover:text-emerald-600">
+
+          <Link
+            to="/about"
+            className="block w-full px-3 py-2 rounded-lg hover:bg-gray-100 hover:text-emerald-600 transition"
+          >
             About
           </Link>
-          <Link to="/service" className="hover:text-emerald-600">
+
+          <Link
+            to="/service"
+            className="block w-full px-3 py-2 rounded-lg hover:bg-gray-100 hover:text-emerald-600 transition"
+          >
             Services
           </Link>
-          <Link to="/treatment" className="hover:text-emerald-600">
+
+          <Link
+            to="/treatment"
+            className="block w-full px-3 py-2 rounded-lg hover:bg-gray-100 hover:text-emerald-600 transition"
+          >
             Treatments
           </Link>
-          <Link to="whyus" className="hover:text-emerald-600">
+
+          <Link
+            to="/whyus"
+            className="block w-full px-3 py-2 rounded-lg hover:bg-gray-100 hover:text-emerald-600 transition"
+          >
             Why Us
           </Link>
-          <button className="bg-emerald-600 text-white px-5 py-2 rounded-full w-full">
+
+          <button className="bg-emerald-600 text-white px-5 py-2 rounded-full w-full mt-2">
             Contact
           </button>
         </div>

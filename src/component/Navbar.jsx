@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMdMailOpen } from "react-icons/io";
 import { CiLocationOn } from "react-icons/ci";
-// import img1 from "/logo1.jpeg";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -25,8 +24,12 @@ export default function Navbar() {
       {/* Navbar */}
       <div className="flex justify-between items-center px-4 md:px-8 py-4  bg-white shadow mx-auto">
         <div className="flex items-center gap-3">
-          <div className="bg-emerald-600 text-white w-10 h-10 flex items-center justify-center rounded-full">
-            S
+          <div className="flex items-center justify-center rounded-full overflow-hidden border border-emerald-600 w-12 h-12">
+            <img
+              src="/logo.png"
+              alt="logo"
+              className="w-full h-full object-contain "
+            />
           </div>
           <div>
             <h1 className="font-bold text-emerald-700">SANKALPA</h1>

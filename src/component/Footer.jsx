@@ -15,8 +15,12 @@ export default function Footer() {
         {/* Logo + About */}
         <div>
           <div className="flex items-center gap-3 mb-4">
-            <div className="bg-emerald-600 w-10 h-10 flex items-center justify-center rounded-full font-bold">
-              S
+            <div className="bg-emerald-600 w-12 h-12 flex items-center justify-center rounded-full font-bold">
+              <img
+                src="/logo.png"
+                alt="logo"
+                className="w-full h-full object-contain "
+              />
             </div>
             <div>
               <h2 className="font-bold text-lg">SANKALPA</h2>
@@ -86,7 +90,7 @@ export default function Footer() {
 
           <div className="space-y-4 text-sm text-gray-300">
             <div className="flex items-start gap-2">
-              <MdOutlineWatchLater className="text-emerald-600 text-xl"/>
+              <MdOutlineWatchLater className="text-emerald-600 text-xl" />
               <div>
                 <p className="font-medium text-white">Monday - Saturday</p>
                 <p>9:00 AM - 7:00 PM</p>
@@ -94,15 +98,15 @@ export default function Footer() {
             </div>
 
             <div className="flex items-start gap-2">
-              <MdOutlineWatchLater className="text-emerald-600 text-xl"/>
+              <MdOutlineWatchLater className="text-emerald-600 text-xl" />
               <div>
                 <p className="font-medium text-white">Sunday</p>
                 <p>9:00 AM - 2:00 PM</p>
               </div>
             </div>
 
-            <div className="pt-3 border-t border-green-700">
-              <p className="text-green-400 font-medium">Emergency Services</p>
+            <div className="pt-3 border-t border-emerald-700">
+              <p className="text-emerald-400 font-medium">Emergency Services</p>
               <p>Available 24/7</p>
             </div>
           </div>
@@ -110,7 +114,7 @@ export default function Footer() {
       </div>
 
       {/* Divider */}
-      <div className="border-t border-green-700 mt-10 pt-6 text-sm text-gray-300 flex flex-col lg:flex-row justify-between items-center gap-4">
+      <div className="border-t border-emerald-700 mt-10 pt-6 text-sm text-gray-300 flex flex-col lg:flex-row justify-between items-center gap-4">
         <p>
           © 2026 Sankalpa Ayurveda Hospital & Research Centre. All rights
           reserved.
@@ -128,14 +132,14 @@ export default function Footer() {
       </div>
 
       {/* Bottom Line */}
-      <div className="text-center mt-4 text-sm text-green-400">
+      <div className="text-center mt-4 text-sm text-emerald-400">
         <p>
           "Your Sankalpa, Our Ayurveda" – Heal in Sankalpa and Heal by Sankalpa
         </p>
 
         <p className="mt-2 text-gray-300">
           Designed with ❤️ by{" "}
-          <span className="text-green-400 font-medium">
+          <span className="text-emerald-400 font-medium">
             Newrise Technosys Pvt Ltd
           </span>
         </p>

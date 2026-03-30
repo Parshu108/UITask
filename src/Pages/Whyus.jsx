@@ -1,3 +1,14 @@
+import { FaRegHeart } from "react-icons/fa";
+import { FaMedal } from "react-icons/fa";
+import { FaFlask } from "react-icons/fa";
+import { FaUserMd } from "react-icons/fa";
+import { FaBuilding } from "react-icons/fa";
+import { FaLeaf } from "react-icons/fa";
+import { FaSeedling } from "react-icons/fa";
+import { FaGraduationCap } from "react-icons/fa";
+import { FaGlobe } from "react-icons/fa";
+import { FaShieldAlt } from "react-icons/fa";
+
 export default function WhyUs() {
   return (
     <div className="py-20 bg-gradient-to-br from-emerald-50 via-white to-amber-50">
@@ -23,62 +34,62 @@ export default function WhyUs() {
             {
               title: "9 Decades of Excellence",
               desc: "Ayurveda practitioner for 9 decades and 3 generations. Promising and proven result-oriented treatments.",
-              color: "bg-green-100 text-green-700",
-              icon: "🏅",
+              color: "bg-green-100 ",
+              icon: <FaMedal />,
             },
             {
               title: "Authentic Ayurveda",
               desc: "Treatments rooted in traditional and classical Ayurveda, practised with integrity. Served more than 10 Lakh patients from across the globe.",
               color: "bg-blue-100 text-blue-600",
-              icon: "🛡️",
+              icon: <FaShieldAlt />,
             },
             {
               title: "Research-Driven Excellence",
               desc: "Evidence-based protocols integrating traditional wisdom with modern validation.",
               color: "bg-purple-100 text-purple-600",
-              icon: "⚗️",
+              icon: <FaFlask />,
             },
             {
               title: "Personalised Care",
               desc: "Customised therapies to your Prakriti (constitution) and health needs. Yoga, diet, and Nutrition, Infertility, and couples counselling.",
               color: "bg-pink-100 text-pink-600",
-              icon: "❤️",
+              icon: <FaRegHeart />,
             },
             {
               title: "Comprehensive Healing",
               desc: "Not just symptom relief, but restoration of balance in body, mind, and spirit. Less invasive, painless, harmless, and affordable treatments.",
               color: "bg-green-100 text-green-700",
-              icon: "🌿",
+              icon: <FaLeaf />,
             },
             {
               title: "Expert Team",
               desc: "Experienced Ayurvedic physicians, researchers, and therapists working in synergy.",
               color: "bg-orange-100 text-orange-600",
-              icon: "👨‍⚕️",
+              icon: <FaUserMd />,
             },
             {
               title: "State-of-the-Art Facilities",
               desc: "Modern infrastructure supporting traditional Panchakarma, Reproductive and Regenerative medicines, wellness, and integrative therapies.",
               color: "bg-indigo-100 text-indigo-600",
-              icon: "🏢",
+              icon: <FaBuilding />,
             },
             {
               title: "Eco-Conscious & Ethical",
               desc: "Sustainable practices, ethical sourcing of medicines, and community-centred healthcare.",
               color: "bg-teal-100 text-teal-600",
-              icon: "🌱",
+              icon: <FaSeedling />,
             },
             {
               title: "Education & Awareness",
               desc: "Empowering patients with lifestyle guidance, yoga, meditation, and mindful living.",
               color: "bg-sky-100 text-sky-600",
-              icon: "🎓",
+              icon: <FaGraduationCap />,
             },
             {
               title: "Global Outlook, Indian Soul",
               desc: "A vision that connects Ayurveda with international research while staying true to its roots.",
               color: "bg-purple-100 text-purple-600",
-              icon: "🌍",
+              icon: <FaGlobe />,
             },
           ].map((item, i) => (
             <div
@@ -86,7 +97,7 @@ export default function WhyUs() {
               className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2"
             >
               <div
-                className={`w-14 h-14 flex items-center justify-center rounded-full text-xl mb-4 bg-gradient-to-br from-emerald-500 to-emerald-600 ${item.color}`}
+                className={`w-14 h-14 flex items-center justify-center rounded-full text-xl mb-4  ${item.color}`}
               >
                 {item.icon}
               </div>

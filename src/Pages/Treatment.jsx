@@ -2,97 +2,113 @@ import { FiAward } from "react-icons/fi";
 import { SlGraduation } from "react-icons/sl";
 import { RiCapsuleLine } from "react-icons/ri";
 import { CiStethoscope } from "react-icons/ci";
+import { FaHeartbeat } from "react-icons/fa";
+import { PiBabyBold } from "react-icons/pi";
+import { FaBalanceScale } from "react-icons/fa";
+import { BsStars } from "react-icons/bs";
+import { GoGraph } from "react-icons/go";
+import { FaCircle } from "react-icons/fa6";
+import { FaRegCircle } from "react-icons/fa";
+import { TbWaveSawTool } from "react-icons/tb";
+import { PiBoneFill } from "react-icons/pi";
+import { PiBrainBold } from "react-icons/pi";
+import { WiNightAltCloudyWindy } from "react-icons/wi";
+import { IoIosFlash } from "react-icons/io";
+import { FaStar } from "react-icons/fa";
+import { FaEye } from "react-icons/fa";
+
+
 export default function Treatments() {
   const treatments = [
     {
       title: "PCOS - Polycystic Ovarian Syndrome",
       color: "bg-green-100 border-green-400 text-green-700",
-      icon: "💚",
+      icon: <FaHeartbeat className="lucide lucide-heartbeat w-6 h-6 text-green-600" />,
     },
     {
       title: "Infertility - Male & Female",
       color: "bg-red-100 border-red-400 text-red-600",
-      icon: "👶",
+      icon: <PiBabyBold className="lucide lucide-baby w-6 h-6 text-red-600" />,
     },
     {
       title: "Obesity - Weight Management",
       color: "bg-yellow-100 border-yellow-400 text-yellow-700",
-      icon: "⚖️",
+      icon: <FaBalanceScale className="lucide lucide-balance-scale w-6 h-6 text-yellow-600" />,
     },
     {
       title: "Skin Care & Beauty Treatments",
       color: "bg-pink-100 border-pink-400 text-pink-600",
-      icon: "✨",
+      icon: <BsStars className="lucide lucide-stars w-6 h-6 text-pink-600" />,
     },
     {
       title: "Diabetes Mellitus",
       color: "bg-blue-100 border-blue-400 text-blue-600",
-      icon: "📈",
+      icon: <GoGraph className="lucide lucide-graph w-6 h-6 text-blue-600" />,
     },
     {
       title: "Piles (Hemorrhoids)",
       color: "bg-red-100 border-red-400 text-red-600",
-      icon: "🔴",
+      icon: <FaCircle className="lucide lucide-circle w-6 h-6 text-red-600" />,
     },
     {
       title: "Fissure & Fistula",
       color: "bg-orange-100 border-orange-400 text-orange-600",
-      icon: "⭕",
+      icon: <FaRegCircle className="lucide lucide-circle w-6 h-6 text-orange-600" />,
     },
     {
       title: "IBS - Irritable Bowel Syndrome",
       color: "bg-indigo-100 border-indigo-400 text-indigo-600",
-      icon: "〰️",
+      icon: <TbWaveSawTool className="lucide lucide-wave-saw-tool w-6 h-6 text-indigo-600" />,
     },
     {
       title: "Arthritis & Joint Pain",
       color: "bg-teal-100 border-teal-400 text-teal-700",
-      icon: "🦴",
+      icon: <PiBoneFill className="lucide lucide-bone w-6 h-6 text-teal-600" />,
     },
     {
       title: "Spondylosis - Cervical & Lumbar",
       color: "bg-cyan-100 border-cyan-400 text-cyan-700",
-      icon: "🦴",
+      icon: <PiBoneFill className="lucide lucide-bone w-6 h-6 text-cyan-600" />,
     },
     {
       title: "Migraine & Headaches",
       color: "bg-purple-100 border-purple-400 text-purple-600",
-      icon: "🧠",
+      icon: <PiBrainBold className="lucide lucide-brain w-6 h-6 text-purple-600" />,
     },
     {
       title: "Sinusitis & Respiratory Issues",
       color: "bg-sky-100 border-sky-400 text-sky-700",
-      icon: "💨",
+      icon: <WiNightAltCloudyWindy className="lucide lucide-night-alt-cloudy-windy w-6 h-6 text-sky-600" />,
     },
     {
       title: "Stress & Anxiety Management",
       color: "bg-violet-100 border-violet-400 text-violet-600",
-      icon: "🧠",
+      icon: <PiBrainBold className="lucide lucide-brain w-6 h-6 text-violet-600" />,
     },
     {
       title: "Gastritis & Acidity",
       color: "bg-lime-100 border-lime-400 text-lime-700",
-      icon: "⚡",
+      icon: <IoIosFlash className="lucide lucide-flash w-6 h-6 text-lime-600" />,
     },
     {
       title: "Psoriasis & Eczema",
       color: "bg-fuchsia-100 border-fuchsia-400 text-fuchsia-600",
-      icon: "✨",
+      icon: <BsStars className="lucide lucide-stars w-6 h-6 text-fuchsia-600" />,
     },
     {
       title: "Hair Fall & Premature Greying",
       color: "bg-yellow-100 border-yellow-400 text-yellow-700",
-      icon: "⭐",
+      icon: <FaStar className="lucide lucide-star w-6 h-6 text-yellow-600" />,
     },
     {
       title: "General Weakness & Fatigue",
       color: "bg-green-100 border-green-400 text-green-700",
-      icon: "💚",
+      icon: <FaHeartbeat className="lucide lucide-heartbeat w-6 h-6 text-green-600" />,
     },
     {
       title: "Eye Disorders",
       color: "bg-blue-100 border-blue-400 text-blue-600",
-      icon: "👁️",
+      icon: <FaEye className="lucide lucide-eye w-6 h-6 text-blue-600" />,
     },
   ];
 

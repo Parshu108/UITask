@@ -1,7 +1,7 @@
-import { CiCalculator1 } from "react-icons/ci";
+import { LuClipboardList } from "react-icons/lu";
 import { FaRegHeart } from "react-icons/fa";
-import { CiCircleInfo } from "react-icons/ci";
-import { CiStethoscope } from "react-icons/ci";
+import { FiAlertCircle } from "react-icons/fi";
+import { FaStethoscope } from "react-icons/fa6";
 import { ImLab } from "react-icons/im";
 import { RiCapsuleLine } from "react-icons/ri";
 import { SiPronounsdotpage } from "react-icons/si";
@@ -28,7 +28,7 @@ export default function Services() {
             </div>
             <div className="p-6">
               <div className="w-14 h-14 rounded-full flex items-center justify-center mb-4 -mt-14 relative z-10 bg-emerald-100">
-                <CiCalculator1 className="w-8 h-8 object-fit-cover hover:scale-110 transition-transform duration-500" />
+                <LuClipboardList className="w-8 h-8 object-fit-cover text-emerald-600 hover:scale-110 transition-transform duration-500" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">
                 Reception, Registration & Billing
@@ -48,7 +48,7 @@ export default function Services() {
             </div>
             <div className="p-6">
               <div className="w-14 h-14 rounded-full flex items-center justify-center mb-4 -mt-14 relative z-10 bg-emerald-100">
-                <CiCircleInfo className="w-8 h-8 object-fit-cover hover:scale-110 transition-transform duration-500" />
+                <FiAlertCircle className="w-8 h-8 object-fit-cover text-emerald-600 hover:scale-110 transition-transform duration-500" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">
                 Information Desk
@@ -68,7 +68,7 @@ export default function Services() {
             </div>
             <div className="p-6">
               <div className="w-14 h-14 rounded-full flex items-center justify-center mb-4 -mt-14 relative z-10 bg-emerald-100">
-                <CiStethoscope className="w-8 h-8 object-fit-cover hover:scale-110 transition-transform duration-500" />
+                <FaStethoscope className="w-8 h-8 object-fit-cover text-emerald-600 hover:scale-110 transition-transform duration-500" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">
                 Consultation Services
@@ -124,7 +124,7 @@ export default function Services() {
             </div>
             <div className="p-6">
               <div className="w-14 h-14 rounded-full flex items-center justify-center mb-4 -mt-14 relative z-10 bg-emerald-100">
-                <FaRegHeart className="w-8 h-8 object-fit-cover hover:scale-110 transition-transform duration-500" />
+                <FaRegHeart className="w-8 h-8 object-fit-cover text-emerald-600 hover:scale-110 transition-transform duration-500" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">
                 Supraja – Fertility & Wellness
@@ -204,7 +204,7 @@ export default function Services() {
             </div>
             <div className="p-6">
               <div className="w-14 h-14 rounded-full flex items-center justify-center mb-4 -mt-14 relative z-10 bg-emerald-100">
-                <RiCapsuleLine className="w-8 h-8 object-fit-cover hover:scale-110 transition-transform duration-500" />
+                <RiCapsuleLine className="w-8 h-8 object-fit-cover text-emerald-600 hover:scale-110 transition-transform duration-500" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">
                 Bheshaja – Ayurveda Pharmacy
@@ -224,7 +224,7 @@ export default function Services() {
             </div>
             <div className="p-6">
               <div className="w-14 h-14 rounded-full flex items-center justify-center mb-4 -mt-14 relative z-10 bg-emerald-100">
-                <SiPronounsdotpage className="w-8 h-8 object-fit-cover hover:scale-110 transition-transform duration-500" />
+                <SiPronounsdotpage className="w-8 h-8 object-fit-cover text-emerald-600 hover:scale-110 transition-transform duration-500" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">
                 Niramaya – Panchakarma Therapy
@@ -244,7 +244,7 @@ export default function Services() {
             </div>
             <div className="p-6">
               <div className="w-14 h-14 rounded-full flex items-center justify-center mb-4 -mt-14 relative z-10 bg-emerald-100">
-                <FaBed className="w-8 h-8 object-fit-cover hover:scale-110 transition-transform duration-500" />
+                <FaBed className="w-8 h-8 object-fit-cover text-emerald-600 hover:scale-110 transition-transform duration-500" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">
                 Ananda – Retiring & Observation Room

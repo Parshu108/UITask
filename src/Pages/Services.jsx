@@ -184,7 +184,7 @@ export default function Services() {
             </div>
             <div className="p-6">
               <div className="w-14 h-14 rounded-full flex items-center justify-center mb-4 -mt-14 relative z-10 bg-emerald-100">
-                <ImLab className="w-8 h-8 object-fit-cover hover:scale-110 transition-transform duration-500" />
+                <ImLab className="w-8 h-8 object-fit-cover text-emerald-600 hover:scale-110 transition-transform duration-500" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">
                 Madhava – Diagnostic Laboratory
